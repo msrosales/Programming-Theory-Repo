@@ -1,0 +1,9 @@
+using UnityEngine;
+
+public class IceCream: Dessert
+{
+	public override string getName(){
+		return "IceCream";
+	}
+    
+}

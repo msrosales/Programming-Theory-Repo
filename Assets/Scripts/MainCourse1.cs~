@@ -1,0 +1,15 @@
+using UnityEngine;
+
+public abstract class MainCourse: MenuItem
+{
+	public override string getCategory(){
+		return "Main Course";
+	}
+
+	public override float getPrice(){
+		return 10.0f;
+	}
+
+	public override abstract string getName();
+    
+}

@@ -1,0 +1,15 @@
+using UnityEngine;
+
+public abstract class MenuItem
+{
+	//ABSTRACTION
+	protected string _name;
+	public string Name{get; protected set;}
+
+	//ABSTRACTION
+	protected string _category;
+	public string Category{get; protected set;}
+
+	//POLYMORPHISM
+	public abstract float calculatePrice();    
+}

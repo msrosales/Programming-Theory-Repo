@@ -1,0 +1,11 @@
+using UnityEngine;
+
+//INHERITANCE
+public class Coffee: Drink
+{
+	//POLYMORPHISM
+	public override string getName(){
+		return "Coffee";
+	}
+    
+}

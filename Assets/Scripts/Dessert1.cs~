@@ -1,0 +1,15 @@
+using UnityEngine;
+
+public abstract class Dessert: MenuItem
+{
+	public override string getCategory(){
+		return "Dessert";
+	}
+
+	public override float getPrice(){
+		return 5.0f;
+	}
+
+	public override abstract string getName();
+    
+}
