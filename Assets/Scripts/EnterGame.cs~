@@ -1,0 +1,9 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class EnterGame : MonoBehaviour
+{
+	public void EnterGame(){
+		SceneManager.LoadScene(0);
+	}
+}
